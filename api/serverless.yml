@@ -15,6 +15,7 @@ package:
 
 provider:
   name: aws
+  
   runtime: nodejs10.x
   memorySize: 128
   timeout: 10

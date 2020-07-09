@@ -1,4 +1,6 @@
 ## Intro
+
+
 As more people begin deploying production web applications with Serverless it comes into question how exactly to structure an application repository that has multiple components with Serverless.  Imagine you're building an e-commerce website where you expect users to register, and those users can create an order.  These front end transactions can be handled in this example.  Lets say as part of that order, you have a backend system for fulfillment of the order such as an API request to another system. In this example, when an order is created it will trigger a message sent to a backend function to process the order.
 
 In this post, I have come armed with a repository help get you started with your Serverless application development.  With this example you get two DynamoDB tables representing a place to store your application's data, an API Gateway that you can hook into a front end, or back end process to interface with your application and 3 separate endpoint Lambda functions, a SQS queue to simulate a message being sent to the acting backend, and the backend which is one Lambda function that is triggered from the previously mentioned SQS queue.

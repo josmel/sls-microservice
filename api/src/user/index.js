@@ -57,6 +57,7 @@ async function scanTable({ table, fe, eav, ean, pe}) {
 
 // table - Table Namme
 // item - Json object being added to table
+//other
 async function putTable({ table, item}) {
   try {
     return await docClient.put({ TableName: table, Item: item}).promise();

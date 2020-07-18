@@ -26,6 +26,7 @@ provider:
       'Fn::ImportValue': ${self:custom.${self:provider.stage}.Stack}-restApiId-${self:provider.stage}
     restApiRootResourceId:
       'Fn::ImportValue': ${self:custom.${self:provider.stage}.Stack}-rootResourceId-${self:provider.stage}
+      
   logRetentionInDays: 14
   environment:
     logLevel: ${self:custom.${self:provider.stage}.LogLevel}

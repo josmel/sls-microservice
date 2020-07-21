@@ -1,6 +1,7 @@
 MKFILEPATH := $(shell pwd)
 SERVICE ?= ''
 
+
 remove:
 	$(info [*] Removing dev env....)
 	serverless remove --stage dev

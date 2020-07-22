@@ -14,6 +14,7 @@ Another benefit of this design is you are able to deploy your API endpoints sepa
 ## Getting Started
 To get started you'll need your environment configured with AWS credentials.  
 Next, lets pull down the example repository and jump into it:
+
 ```
 git clone https://github.com/trilom/sls-microservice.git
 cd sls-microservice/backend

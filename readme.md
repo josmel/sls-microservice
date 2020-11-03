@@ -131,7 +131,7 @@ This will remove the serverless project, deleting the backend infrastructure.
 This will remove the `.serverless` and `node_modules/**` directory for the backend.
 
 ## What do do from here:
-* In more complicated examples you would be able to use AWS Cognito in the `/user` endpoint to set up authentication.  This endpoint would be scoped for user functions around Cognito and will likely have similar imports.  
+* In more complicated example you would be able to use AWS Cognito in the `/user` endpoint to set up authentication.  This endpoint would be scoped for user functions around Cognito and will likely have similar imports.  
 * You could also import Stripe in a `/billing` endpoint to facilitate collection of payment information.  
 * Within the `/orders` endpoint, you can set up your DynamoDB queries for managing your order collection.  
 * You could set up CI/CD simply by adding a CodePipeline resource, and utilizing CodeBuild to pull down this repository, and run the make files.  

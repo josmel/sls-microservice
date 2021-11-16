@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.456.0",
+    "aws-sdk": "^2.814.0",
     "log4js": "^4.2.0"
   }
 }

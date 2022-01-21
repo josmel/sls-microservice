@@ -10,7 +10,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "aws-sdk": "^2.456.0",
-    "log4js": "^4.2.0",
+    "log4js": "^6.4.0",
     "moment": "^2.24.0",
     "serverless-http": "^2.0.1"
   }
